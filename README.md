@@ -69,7 +69,7 @@ You must build the project via Android Studio or Gradle and push it to the Porta
    From the root of this repository, run:
    ```bash
    ./gradlew assembleDebug
-   adb install app/build/outputs/apk/debug/app-debug.apk
+   adb install -r app/build/outputs/apk/debug/app-debug.apk
    ```
 
 3. **Launch the App:**
@@ -79,8 +79,17 @@ You must build the project via Android Studio or Gradle and push it to the Porta
    ```
    Or, you can use the Portal TV remote to navigate to the app drawer and open **"Family Time"**. (The app uses the `LEANBACK_LAUNCHER` intent and includes an `android:banner` to ensure it is visible in the UI).
 
-### Headless Development
-If you are developing without an HDMI monitor plugged into the Portal TV, you can use `scrcpy` to mirror the TV's interface directly to your desktop:
-```bash
-scrcpy
-```
+### Headless Development (Android Studio)
+If you are developing without an HDMI monitor plugged into the Portal TV, you can use `scrcpy` to mirror the TV's interface directly to your desktop.
+
+**Automate `scrcpy` in Android Studio:**
+You can configure Android Studio to automatically launch `scrcpy` whenever you click the Run button:
+1. Click **Run** > **Edit Configurations...**
+2. Select your `app` configuration.
+3. Scroll down to **Before launch** and click the **`+`** icon.
+4. Select **Run External tool**, click **`+`** to create a new tool, and set:
+   - **Name:** `scrcpy`
+   - **Program:** `scrcpy`
+   - **Working directory:** `$ProjectFileDir$`
+   - Uncheck *Synchronize files after execution* and *Open console for tool output*.
+5. Click OK to save. `scrcpy` will now automatically open whenever you deploy the app!
