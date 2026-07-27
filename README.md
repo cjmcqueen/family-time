@@ -46,6 +46,9 @@ To set up the backend, follow these steps to configure your Google Apps Script e
 *(Optional) Daily Health Check:* 
 You can use the Apps Script "Triggers" menu (clock icon) to run the `dailyHealthCheck()` function once a day to ensure your Daily.co billing and API are functioning properly.
 
+### Using `clasp` for Backend Development
+To make it easier to develop and customize the backend logic that drives the UI on the Portal TV, you can use Google's [clasp](https://developers.google.com/apps-script/guides/clasp) (Command Line Apps Script Projects). `clasp` allows you to sync your local `backend/` files directly with your Apps Script project from the terminal, enabling you to use your preferred IDE and version control.
+
 ---
 
 ## 2. Portal TV Installation & Setup
