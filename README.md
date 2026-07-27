@@ -93,3 +93,6 @@ You can configure Android Studio to automatically launch `scrcpy` whenever you c
    - **Working directory:** `$ProjectFileDir$`
    - Uncheck *Synchronize files after execution* and *Open console for tool output*.
 5. Click OK to save. `scrcpy` will now automatically open whenever you deploy the app!
+
+## Acknowledgments
+This project was originally built on top of the official Meta Portal Sample App boilerplate, which provided the foundational Android configurations required to run custom applications seamlessly on Portal TV hardware.
