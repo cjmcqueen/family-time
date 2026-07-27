@@ -95,4 +95,4 @@ You can configure Android Studio to automatically launch `scrcpy` whenever you c
 5. Click OK to save. `scrcpy` will now automatically open whenever you deploy the app!
 
 ## Acknowledgments
-This project was originally built on top of the official Meta Portal Sample App boilerplate, which provided the foundational Android configurations required to run custom applications seamlessly on Portal TV hardware.
+This project was originally built on top of the official Meta Portal Sample App boilerplate, which provided the foundational Android configurations required to run custom applications seamlessly on Portal TV hardware. Additionally, [GodricTM/PortalDevKit](https://github.com/GodricTM/PortalDevKit) served as an invaluable reference for configuring the correct Android manifest banner settings.
