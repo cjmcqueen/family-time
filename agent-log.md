@@ -31,5 +31,9 @@ This document serves as a summary of the development process and decisions made 
 - Integrated `scrcpy` directly into the Android Studio "Before Launch" run configuration for 1-click deployments.
 - Synchronized the finalized project to a private GitHub repository (`cjmcqueen/family-time`).
 
+### 5. Final Repository Cleanup
+- Removed unused sample boilerplate code from the original Meta repository.
+- Stripped original copyright headers and replaced with a personal MIT license, transitioning the repository fully to a personal project while maintaining an acknowledgment to the original Meta boilerplate in the README.
+
 ## Conclusion
 The proof-of-concept is complete. The Portal TV successfully boots the app, fetches live contacts from Google Sheets, creates a room, emails the guests, and successfully renders the WebRTC video feeds using the native Daily Client SDK.
