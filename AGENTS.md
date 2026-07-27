@@ -1,4 +1,6 @@
-# Portal Sample App
+# Portal Sample App & AI Agent Reference
+
+> **Note:** This document originates from the original Meta Portal Sample App boilerplate. The "Family Time" app (a custom video conferencing tool using Daily.co) was built using this project as a foundation. This file has been retained as a reference for future AI agents because it contains critical context about the Portal TV's hardware constraints, build/deploy loop, headless ADB testing, and manifest requirements (e.g., `LEANBACK_LAUNCHER`, `android:banner`).
 
 A minimal Android app for building on discontinued Meta Portal touch and TV devices. Demonstrates UI controls, runtime permissions, camera preview, and audio recording/playback — preconfigured for Portal hardware constraints.
 

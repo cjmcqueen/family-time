@@ -1,5 +1,7 @@
 # Meta Portal Android App Style Guide
 
+> **Note:** This style guide was provided by the original Meta Portal Sample App. The "Family Time" app is built on top of these design principles, but it is now a custom application. This file is retained as a reference for future AI agents to understand the specific UI constraints and layout rules required when building for Portal TV hardware.
+
 A prescriptive reference for building Jetpack Compose apps that conform to Meta Horizon OS and Portal design requirements. Follow every rule here exactly — deviations produce visible inconsistencies on the device.
 
 ---
