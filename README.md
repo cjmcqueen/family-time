@@ -2,7 +2,7 @@
 
 Family Time is a proof-of-concept video conferencing application designed specifically for the Meta Portal TV, powered by the [Daily.co Video SDK](https://www.daily.co/). 
 
-The goal of this project is to allow users to easily start a video meeting from their Portal TV and instantly invite a pre-determined group of family members to join. Invited guests can join the call directly from their mobile or desktop web browsers without needing to install any apps.
+The goal of this project is to allow users to easily start a video meeting from their Portal TV and instantly invite a pre-determined group of family members to join. Invited guests can join the call directly from their mobile or desktop web browsers without needing to install any apps. Although, the will be prompt by Daily.co to install their app; which works very well. Daily.co app is optional to join the video meeting.
 
 ## Architecture
 
