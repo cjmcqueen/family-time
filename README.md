@@ -86,7 +86,7 @@ You must build the project via Android Studio or Gradle and push it to the Porta
 If you are developing without an HDMI monitor plugged into the Portal TV, you can use `scrcpy` to mirror the TV's interface directly to your desktop.
 
 **Automate `scrcpy` in Android Studio:**
-You can configure Android Studio to automatically launch `[scrcpy]([url](https://github.com/genymobile/scrcpy))` whenever you click the Run button:
+You can configure Android Studio to automatically launch `[scrcpy](https://github.com/genymobile/scrcpy)` whenever you click the Run button:
 1. Click **Run** > **Edit Configurations...**
 2. Select your `app` configuration.
 3. Scroll down to **Before launch** and click the **`+`** icon.
